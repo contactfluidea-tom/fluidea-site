@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fluidea — Site web
 
-## Getting Started
+Base technique premium du site de **Fluidea** (automatisation IA sur-mesure).
 
-First, run the development server:
+**Stack :** Next.js 14 (App Router) · TypeScript · Tailwind CSS · Spline (3D) · GSAP + ScrollTrigger · Framer Motion · Lenis (smooth scroll).
+
+## Démarrage
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install      # installer les dépendances
+npm run dev      # serveur de dev → http://localhost:3000
+npm run build    # build de production
+npm run start    # lancer le build de production
+npm run lint     # linter ESLint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Variables d'environnement
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cp .env.example .env.local   # puis renseignez vos valeurs
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Pour la mise en production sur Vercel + le domaine **fluidea.pro**, voir **`DEPLOYMENT.md`**.
 
-## Learn More
+## Arborescence
 
-To learn more about Next.js, take a look at the following resources:
+```
+app/                 Routes, layout & styles globaux (App Router)
+components/
+  ui/                Composants d'interface réutilisables
+  layout/            En-tête, pied de page, navigation
+  sections/          Sections de page
+  spline/            Wrappers des scènes 3D Spline
+hooks/               Hooks React personnalisés
+lib/                 Utilitaires (cn(), helpers)
+public/assets/       Médias statiques
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Conventions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Polices :** Sora pour les titres (`font-sora`), Inter pour le corps (`font-sans`, par défaut).
+- **Alias d'import :** `@/*` pointe vers la racine du projet (ex. `import { cn } from "@/lib/utils"`).
+- **Images Spline :** le domaine `prod.spline.design` est autorisé dans `next.config.js`.
+```
