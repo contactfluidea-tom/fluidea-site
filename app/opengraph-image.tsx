@@ -34,11 +34,11 @@ export default function OpengraphImage() {
           />
           <div style={{ fontSize: 40, fontWeight: 600 }}>Fluidea</div>
         </div>
-        <div style={{ fontSize: 68, fontWeight: 700, lineHeight: 1.1, maxWidth: 920 }}>
-          Automatisation IA sur-mesure
+        <div style={{ fontSize: 72, fontWeight: 700, lineHeight: 1.08, maxWidth: 960 }}>
+          Automatiser votre façon de travailler.
         </div>
-        <div style={{ fontSize: 36, color: "#A0A0AB", marginTop: 28 }}>
-          n8n + Claude — pour entrepreneurs, freelances et PME
+        <div style={{ fontSize: 34, color: "#A0A0AB", marginTop: 28 }}>
+          Automatisation IA sur-mesure · n8n + Claude
         </div>
       </div>
     ),
