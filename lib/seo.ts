@@ -66,7 +66,7 @@ export function getOrganizationJsonLd() {
     description: SITE.description,
     email: SITE.email,
     image: `${SITE.url}/opengraph-image`,
-    logo: `${SITE.url}/icon`,
+    logo: `${SITE.url}/icon-512.png`,
     priceRange: "€€",
     areaServed: { "@type": "Country", name: "France" },
     contactPoint: {

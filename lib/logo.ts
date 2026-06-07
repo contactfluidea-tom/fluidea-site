@@ -1,10 +1,11 @@
 /**
  * Emblème « F » circuit de Fluidea — source unique en SVG inline.
  *
- * Réutilisé par les routes générées via `next/og` (favicon `app/icon.tsx`,
- * `app/apple-icon.tsx`, image Open Graph). Les fichiers servis aux navigateurs
- * vivent dans `public/assets/` (logo-fluidea*.svg / .png) ; ce module fournit la
- * même géométrie sous forme de chaîne pour les images générées à la volée.
+ * Réutilisé par l'image Open Graph générée via `next/og` (`app/opengraph-image.tsx`).
+ * Les favicons/icônes app sont désormais des fichiers statiques générés par
+ * `scripts/generate-icons.mjs` (`app/icon.svg|png`, `app/favicon.ico`,
+ * `app/apple-icon.png`, `public/icon-192|512.png`). Ce module fournit la même
+ * géométrie sous forme de chaîne pour les images générées à la volée.
  *
  * Dégradé de marque (vertical) : #FFB347 → #FF9A3D → #FF6B2C.
  */

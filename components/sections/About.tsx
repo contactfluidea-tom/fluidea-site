@@ -51,7 +51,7 @@ const STRENGTHS: Strength[] = [
     icon: LuBrainCircuit,
     title: "IA de pointe",
     description:
-      "Les derniers modèles Claude et les meilleurs outils, au service de résultats concrets.",
+      "Les modèles d'IA les plus puissants et les meilleurs outils, au service de résultats concrets.",
   },
   {
     icon: LuClock,

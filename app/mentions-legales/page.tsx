@@ -23,37 +23,46 @@ export default function MentionsLegalesPage() {
       <LegalSection title="Éditeur du site">
         <p>Le site fluidea (ci-après « le Site ») est édité par :</p>
         <ul className="list-disc space-y-1.5 pl-5">
-          <li>Fluidea — [statut juridique : ex. micro-entreprise / entrepreneur individuel]</li>
-          <li>Représentant : [Prénom NOM]</li>
-          <li>Adresse : [adresse postale]</li>
+          <li>Fluidea — micro-entreprise (Entrepreneur Individuel)</li>
+          <li>Représentant : Tom Attinetti</li>
+          <li>Adresse : 12 Ruelle du Moulin, 57220 Varize-Vaudoncourt, France</li>
+          <li>
+            Téléphone :{" "}
+            <a href="tel:+33782156155" className={legalLinkClass}>
+              07 82 15 61 55
+            </a>
+          </li>
           <li>
             E-mail :{" "}
             <a href="mailto:contact.fluidea@gmail.com" className={legalLinkClass}>
               contact.fluidea@gmail.com
             </a>
           </li>
-          <li>SIRET : [numéro SIRET]</li>
-          <li>
-            TVA intracommunautaire : [n° de TVA, ou « TVA non applicable, art. 293 B du CGI »]
-          </li>
+          <li>SIRET : 99892750300016 — SIREN : 998 927 503</li>
+          <li>TVA non applicable, art. 293 B du CGI</li>
         </ul>
       </LegalSection>
 
       <LegalSection title="Directeur de la publication">
-        <p>[Prénom NOM], en qualité de représentant de Fluidea.</p>
+        <p>Tom Attinetti, en qualité de représentant de Fluidea.</p>
       </LegalSection>
 
       <LegalSection title="Hébergement">
         <p>Le Site est hébergé par :</p>
         <ul className="list-disc space-y-1.5 pl-5">
-          <li>[Hébergeur — raison sociale]</li>
-          <li>[Adresse de l&apos;hébergeur]</li>
-          <li>[Contact / téléphone de l&apos;hébergeur]</li>
+          <li>Vercel Inc.</li>
+          <li>440 N Barranca Ave #4133, Covina, CA 91723, États-Unis</li>
+          <li>
+            <a
+              href="https://vercel.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={legalLinkClass}
+            >
+              vercel.com
+            </a>
+          </li>
         </ul>
-        <p className="text-text-muted/80">
-          À titre indicatif, en cas de déploiement sur Vercel : Vercel Inc., 340 S Lemon Ave
-          #4133, Walnut, CA 91789, États-Unis.
-        </p>
       </LegalSection>
 
       <LegalSection title="Propriété intellectuelle">

@@ -138,8 +138,9 @@ export function Footer() {
             </p>
 
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-text-muted">
-              Systèmes d&apos;automatisation IA sur-mesure — n8n + Claude — pour libérer
-              votre temps et faire grandir votre activité.
+              Fluidea conçoit des automatisations IA qui transforment votre temps en
+              résultats — votre activité tourne bien, imaginez ce que l&apos;IA peut en
+              faire.
             </p>
 
             <ul className="mt-6 flex flex-wrap gap-3">

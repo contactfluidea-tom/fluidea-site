@@ -22,12 +22,12 @@ export default function PolitiqueConfidentialitePage() {
     >
       <LegalSection title="Responsable du traitement">
         <p>
-          Le responsable du traitement des données est Fluidea — [Prénom NOM]. Pour toute
-          question relative à vos données :{" "}
+          Responsable de traitement : Tom Attinetti (Fluidea) —{" "}
           <a href="mailto:contact.fluidea@gmail.com" className={legalLinkClass}>
             contact.fluidea@gmail.com
           </a>
-          .
+          . Pour toute question relative à vos données, vous pouvez le contacter à cette
+          adresse.
         </p>
       </LegalSection>
 

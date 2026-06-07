@@ -262,7 +262,7 @@ export function Work() {
           eyebrow="Réalisations"
           eyebrowIcon={<LuTrophy />}
           title="Réalisations & cas d'usage"
-          subtitle="Des exemples concrets de systèmes que l'on conçoit — et l'impact qu'ils génèrent au quotidien. Vos projets viendront bientôt enrichir cette sélection."
+          subtitle="Des exemples concrets de systèmes que l'on conçoit — Chaque mission démarre par un diagnostic honnête. On vous recommande uniquement ce qui a du sens pour votre activité."
         />
 
         <StackedCards className="mt-12 sm:mt-16" ariaLabel="Réalisations & cas d'usage">

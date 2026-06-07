@@ -7,7 +7,7 @@ import { SITE } from "@/lib/seo";
  */
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Fluidea — Automatisation IA sur-mesure",
+    name: "Fluidea",
     short_name: "Fluidea",
     description: SITE.description,
     start_url: "/",
@@ -16,10 +16,11 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#0A0A0F",
     lang: "fr",
     icons: [
-      { src: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
-      { src: "/icon", sizes: "64x64", type: "image/png" },
-      { src: "/icon-192.png", sizes: "192x192", type: "image/png" },
-      { src: "/icon-512.png", sizes: "512x512", type: "image/png" },
+      { src: "/favicon.ico", sizes: "16x16 32x32 48x48", type: "image/x-icon" },
+      { src: "/icon-192.png", sizes: "192x192", type: "image/png", purpose: "any" },
+      { src: "/icon-192.png", sizes: "192x192", type: "image/png", purpose: "maskable" },
+      { src: "/icon-512.png", sizes: "512x512", type: "image/png", purpose: "any" },
+      { src: "/icon-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
     ],
   };
 }
