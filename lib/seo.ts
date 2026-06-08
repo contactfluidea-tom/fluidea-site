@@ -20,9 +20,9 @@ export const SITE = {
   url: SITE_URL,
   email: "contact.fluidea@gmail.com",
   locale: "fr_FR",
-  title: "Fluidea — Automatisation IA sur-mesure (n8n + Claude)",
+  title: "Fluidea — Automatiser votre façon de travailler",
   description:
-    "Fluidea conçoit des systèmes d'automatisation IA sur-mesure — n8n + Claude — pour les entrepreneurs, freelances et PME : audit, conception, mise en production et suivi.",
+    "Fluidea conçoit des automatisations IA qui transforment votre temps en résultats — votre activité tourne bien, imaginez ce que l'IA peut en faire.",
 } as const;
 
 /** Mots-clés SEO (orientés automatisation IA, n8n, Claude, audit, freelances/PME). */

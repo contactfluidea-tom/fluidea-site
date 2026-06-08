@@ -3,7 +3,7 @@ import { EMBLEM_SVG, EMBLEM_RATIO, svgToDataUri } from "@/lib/logo";
 
 // Image Open Graph par défaut (1200×630), générée à la volée. Sert aussi de
 // repli pour la Twitter Card. Logo orange (emblème circuit) sur fond sombre.
-export const alt = "Fluidea — Automatisation IA sur-mesure (n8n + Claude)";
+export const alt = "Fluidea — Automatiser votre façon de travailler";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -38,7 +38,7 @@ export default function OpengraphImage() {
           Automatiser votre façon de travailler.
         </div>
         <div style={{ fontSize: 34, color: "#A0A0AB", marginTop: 28 }}>
-          Automatisation IA sur-mesure · n8n + Claude
+          Automatisation IA sur-mesure
         </div>
       </div>
     ),
