@@ -49,7 +49,7 @@ export const SOCIALS: Social[] = [
   {
     key: "instagram",
     name: "Instagram",
-    href: "https://www.instagram.com/tom_automatisation/",
+    href: "https://www.instagram.com/tom.autoai/",
     icon: FaInstagram,
     followers: null,
     label: "sur Instagram",
